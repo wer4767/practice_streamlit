@@ -5,3 +5,4 @@ numpy
 sqlalchemy
 create_engine
 option_menu
+pymysql
