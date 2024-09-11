@@ -4,3 +4,4 @@ pandas
 numpy
 sqlalchemy
 streamlit-option-menu
+pymysql
