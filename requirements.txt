@@ -7,3 +7,4 @@ create_engine
 option_menu
 pymysql
 mysql-connector-python
+uv
