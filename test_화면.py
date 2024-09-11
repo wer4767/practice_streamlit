@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from sqlalchemy import create_engine
 from streamlit_option_menu import option_menu
 
@@ -9,9 +9,9 @@ from streamlit_option_menu import option_menu
 
 
 # 한글 폰트 설정
-plt.rcParams['font.family'] = 'Malgun Gothic'  # 윈도우에서 사용하는 경우
-# plt.rcParams['font.family'] = 'AppleGothic'  # Mac에서 사용하는 경우
-plt.rcParams['axes.unicode_minus'] = False  # 마이너스 기호 깨짐 방지
+# plt.rcParams['font.family'] = 'Malgun Gothic'  # 윈도우에서 사용하는 경우
+# # plt.rcParams['font.family'] = 'AppleGothic'  # Mac에서 사용하는 경우
+# plt.rcParams['axes.unicode_minus'] = False  # 마이너스 기호 깨짐 방지
 # 데이터베이스 연결 설정
 DB_TYPE = 'mysql+pymysql'  # MySQL의 경우
 DB_HOST = '172.18.30.14'
