@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from sqlalchemy import create_engine
+import pymysql
 
 # MariaDB 연결 정보 설정
 # 아래 항목을 자신의 MariaDB 서버 정보로 변경하세요.
