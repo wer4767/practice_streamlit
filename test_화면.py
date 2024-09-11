@@ -58,11 +58,11 @@ with st.sidebar:
     )
 
 
-# 선택한 열의 데이터 시각화
-st.subheader(f"{column} 값 분포")
-fig, ax = plt.subplots()
-ax.hist(df[column].dropna(), bins=20, color="skyblue", edgecolor="black")
-st.pyplot(fig)
+# # 선택한 열의 데이터 시각화
+# st.subheader(f"{column} 값 분포")
+# fig, ax = plt.subplots()
+# ax.hist(df[column].dropna(), bins=20, color="skyblue", edgecolor="black")
+# st.pyplot(fig)
 
 # 데이터 다운로드 기능
 csv = df.to_csv(index=False).encode('utf-8')
