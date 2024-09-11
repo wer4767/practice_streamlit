@@ -5,3 +5,5 @@ numpy
 sqlalchemy
 streamlit-option-menu
 pymysql
+sqlalchemy
+mysql
