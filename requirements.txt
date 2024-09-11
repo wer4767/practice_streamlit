@@ -3,5 +3,4 @@ matplotlib
 pandas
 numpy
 sqlalchemy
-create_engine
-option_menu
+streamlit-option-menu
