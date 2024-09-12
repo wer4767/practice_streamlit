@@ -6,3 +6,4 @@ sqlalchemy
 uv
 streamlit_option_menu
 pymysql
+mysql-connector-python
