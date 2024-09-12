@@ -28,7 +28,7 @@ def load_data(query):
 st.title("MariaDB 데이터 시각화 대시보드")
 
 # 데이터 쿼리 작성
-query = "SELECT * FROM rpa_history"  # 원하는 쿼리 작성
+query = "SELECT * FROM aa"  # 원하는 쿼리 작성
 data = load_data(query)
 
 # 데이터 표시
