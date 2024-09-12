@@ -3,8 +3,6 @@ matplotlib
 pandas
 numpy
 sqlalchemy
-create_engine
-option_menu
-pymysql
-mysql-connector-python
 uv
+streamlit_option_menu
+pymysql
